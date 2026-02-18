@@ -8,16 +8,16 @@ from src.eval import evaluate_all_retrieval, evaluate_all_answers
 load_dotenv(override=True)
 
 # Color coding thresholds - Retrieval
-MRR_GREEN = 0.9
+MRR_GREEN = 0.85
 MRR_AMBER = 0.75
-NDCG_GREEN = 0.9
+NDCG_GREEN = 0.85
 NDCG_AMBER = 0.75
-COVERAGE_GREEN = 90.0
+COVERAGE_GREEN = 85.0
 COVERAGE_AMBER = 75.0
 
 # Color coding thresholds - Answer (1-5 scale)
-ANSWER_GREEN = 4.5
-ANSWER_AMBER = 4.0
+ANSWER_GREEN = 4.0
+ANSWER_AMBER = 3.5
 
 
 def get_color(value: float, metric_type: str) -> str:

@@ -14,9 +14,7 @@ MODEL = "openai/gpt-4.1-nano"
 DB_NAME = str(Path(__file__).parent.parent / "data/vector_db")
 KNOWLEDGE_BASE_PATH = Path(__file__).parent.parent / "data/knowledge-base"
 SUMMARIES_PATH = Path(__file__).parent.parent / "summaries"
-print("path of DB and knowledge base:")
-print(DB_NAME)
-print(KNOWLEDGE_BASE_PATH)
+
 
 collection_name = "docs"
 embedding_model = "text-embedding-3-large"
