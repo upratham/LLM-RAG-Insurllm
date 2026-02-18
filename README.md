@@ -69,7 +69,7 @@ The Gradio interface will launch at `http://localhost:7860`
 
 The following screenshot shows the Insurellm Expert Assistant in action:
 
-![Insurellm Expert Assistant Demo](assets\demo_UI.png)
+![Insurellm Expert Assistant Demo](/assets/demo_UI.png)
 
 **Example Interaction:**
 - **User Query**: "Tell me about your healthcare product"
