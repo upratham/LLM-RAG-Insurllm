@@ -13,7 +13,7 @@ load_dotenv(override=True)
 
 MODEL = "openai/gpt-4.1-nano"
 
-DB_NAME = str(Path(__file__).parent.parent / "preprocessed_db")
+DB_NAME = str(Path(__file__).parent.parent / "data/vector_db")
 collection_name = "docs"
 embedding_model = "text-embedding-3-large"
 KNOWLEDGE_BASE_PATH = Path(__file__).parent.parent / "knowledge-base"
