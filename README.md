@@ -102,7 +102,7 @@ print(answer)
 
 The system has been rigorously evaluated on 150 test cases across multiple question categories. Below are the key performance metrics:
 
-![Evaluation Metrics](assets\eval_result.png)
+![Evaluation Metrics](/assets/eval_result.png)
 
 ### Retrieval Evaluation
 
