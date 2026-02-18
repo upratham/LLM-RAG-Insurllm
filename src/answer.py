@@ -9,10 +9,10 @@ from tenacity import retry, wait_exponential
 
 load_dotenv(override=True)
 
-# MODEL = "openai/gpt-4.1-nano"
-MODEL = "groq/openai/gpt-oss-120b"
-DB_NAME = str(Path(__file__).parent.parent / "preprocessed_db")
-KNOWLEDGE_BASE_PATH = Path(__file__).parent.parent / "knowledge-base"
+MODEL = "openai/gpt-4.1-nano"
+#MODEL = "groq/openai/gpt-oss-120b"
+DB_NAME = str(Path(__file__).parent.parent / "data/vector_db")
+KNOWLEDGE_BASE_PATH = Path(__file__).parent.parent / "data/knowledge-base"
 SUMMARIES_PATH = Path(__file__).parent.parent / "summaries"
 
 collection_name = "docs"
